@@ -7,7 +7,7 @@
     <list default="true" id="5707efbb-1c25-47b1-94f0-ae7925b3cc65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment1/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment1/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
