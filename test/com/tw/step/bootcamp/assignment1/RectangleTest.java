@@ -12,9 +12,24 @@ class RectangleTest {
         double area1 = rectangle.area();
         assertEquals(4,area1);
     }
-    void areaofDouble() {
+    @Test
+    void areaOfDouble() {
         Rectangle rectangle = new Rectangle(2.1, 2.1);
         double area1 = rectangle.area();
-        assertEquals(4.2,area1);
+        assertEquals(4.41,area1);
+    }
+
+    @Test
+    void perimeter() {
+        Rectangle rectangle = new Rectangle(2, 2);
+        double perimeter = rectangle.perimeter();
+        assertEquals(perimeter,8);
+    }
+
+    @Test
+    void perimeterOfRectangleWithDoubleValues() {
+        Rectangle rectangle = new Rectangle(2.1, 4.1);
+        double perimeter = rectangle.perimeter();
+        assertEquals(Math.round(perimeter),12.0);
     }
 }
