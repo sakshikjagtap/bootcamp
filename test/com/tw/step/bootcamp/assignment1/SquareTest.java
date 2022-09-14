@@ -19,4 +19,18 @@ class SquareTest {
         double perimeter = square.perimeter();
         assertEquals(perimeter,8);
     }
+
+    @Test
+    void areaOfSquareWithDoubleValues() {
+        Square square = new Square(2.1);
+        double area = square.area();
+        assertEquals(area,4.41);
+    }
+
+    @Test
+    void perimeterOfSquareWithDoubleValues() {
+        Square square = new Square(2.1);
+        double perimeter = square.perimeter();
+        assertEquals(perimeter,8.4);
+    }
 }

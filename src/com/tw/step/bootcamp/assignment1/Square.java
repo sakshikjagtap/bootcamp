@@ -2,9 +2,9 @@ package com.tw.step.bootcamp.assignment1;
 
 public class Square implements Shapes{
 
-    private final int side;
+    private final double side;
 
-    public Square(int side) {
+    public Square(double side) {
         this.side = side;
     }
 
