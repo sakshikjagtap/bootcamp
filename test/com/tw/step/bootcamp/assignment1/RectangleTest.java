@@ -28,8 +28,8 @@ class RectangleTest {
 
     @Test
     void perimeterOfRectangleWithDoubleValues() {
-        Rectangle rectangle = new Rectangle(2.1, 4.1);
+        Rectangle rectangle = new Rectangle(2.1, 2.1);
         double perimeter = rectangle.perimeter();
-        assertEquals(Math.round(perimeter),12.0);
+        assertEquals(perimeter,8.4);
     }
 }
