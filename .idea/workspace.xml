@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5707efbb-1c25-47b1-94f0-ae7925b3cc65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Unit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/UnitsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Feet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Inche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/UnitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/UnitsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,11 +48,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tw.step.bootcamp.assignment3" />
       <recent name="com.tw.step.bootcamp.assignment2.exceptions" />
       <recent name="com.tw.step.bootcamp.assignment2" />
       <recent name="com.tw.step.bootcamp.assignment1.exceptions" />
@@ -60,6 +66,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tw.step.bootcamp.assignment3" />
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">

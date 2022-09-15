@@ -2,16 +2,15 @@ package com.tw.step.bootcamp.assignment3;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 class UnitsTest {
 
     @Test
-    void shouldReturnTrue() {
-        Unit unit = new Unit(1);
+    void shouldReturnTrueWhenCome() {
+        Feet feet = new Feet(1);
+        Unit unit = new Unit(feet);
 
-
-        assertTrue(unit.compare(12));
 
     }
 }

@@ -1,17 +1,14 @@
 package com.tw.step.bootcamp.assignment3;
 
-public class Unit {
+public class Unit<T> {
 
-    private final int feet;
-    private final int oneFeet;
 
-    public Unit(int feet) {
-        this.feet=feet;
-        this.oneFeet=12;
+    private final T t;
+
+    public Unit(T t) {
+        this.t=t;
     }
 
 
-    public boolean compare(int inches) {
-        return  inches==feet*oneFeet;
-    }
+
 }
