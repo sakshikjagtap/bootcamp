@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5707efbb-1c25-47b1-94f0-ae7925b3cc65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/exceptions/NegativeDimensionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment2/Probability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment2/exceptions/OutOfProbability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment2/ChanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment1/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment1/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment1/RectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment1/SquareTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,6 +52,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tw.step.bootcamp.assignment2.exceptions" />
+      <recent name="com.tw.step.bootcamp.assignment2" />
       <recent name="com.tw.step.bootcamp.assignment1.exceptions" />
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
@@ -64,8 +64,66 @@
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tw.step.bootcamp.assignment2" />
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ChanceTest.createChanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment2.ChanceTest" />
+      <option name="METHOD_NAME" value="createChanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChanceTest.gettingChance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment2.ChanceTest" />
+      <option name="METHOD_NAME" value="gettingChance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChanceTest.notGettingChance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment2.ChanceTest" />
+      <option name="METHOD_NAME" value="notGettingChance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChanceTest.createChanceTest" />
+        <item itemvalue="JUnit.ChanceTest.notGettingChance" />
+        <item itemvalue="JUnit.ChanceTest.gettingChance" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
