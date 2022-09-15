@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5707efbb-1c25-47b1-94f0-ae7925b3cc65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Feet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Inche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Cm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Length.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/CmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/FeetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/InchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Feet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Feet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Inche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Inch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/UnitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/UnitsTest.java" afterDir="false" />
     </list>
@@ -19,10 +24,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -75,56 +80,56 @@
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnitsTest.shouldReturnTrue">
-    <configuration name="ChanceTest.createChanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="CmTest.getMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tw.step.bootcamp.assignment2.*" />
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment2.ChanceTest" />
-      <option name="METHOD_NAME" value="createChanceTest" />
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.CmTest" />
+      <option name="METHOD_NAME" value="getMM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChanceTest.gettingChance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FeetTest.getMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tw.step.bootcamp.assignment2.*" />
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment2.ChanceTest" />
-      <option name="METHOD_NAME" value="gettingChance" />
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.FeetTest" />
+      <option name="METHOD_NAME" value="getMM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChanceTest.notGettingChance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InchTest.getMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tw.step.bootcamp.assignment2.*" />
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment2.ChanceTest" />
-      <option name="METHOD_NAME" value="notGettingChance" />
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.InchTest" />
+      <option name="METHOD_NAME" value="getMM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitsTest.shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitsTest.shouldReturnOneWhenFirstLengthIsGreaterThanSecondLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +139,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
       <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.UnitsTest" />
-      <option name="METHOD_NAME" value="shouldReturnTrue" />
+      <option name="METHOD_NAME" value="shouldReturnOneWhenFirstLengthIsGreaterThanSecondLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitsTest.shouldReturnZeroWhenBothLengthsAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.UnitsTest" />
+      <option name="METHOD_NAME" value="shouldReturnZeroWhenBothLengthsAreEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,10 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UnitsTest.shouldReturnTrue" />
-        <item itemvalue="JUnit.ChanceTest.createChanceTest" />
-        <item itemvalue="JUnit.ChanceTest.notGettingChance" />
-        <item itemvalue="JUnit.ChanceTest.gettingChance" />
+        <item itemvalue="JUnit.UnitsTest.shouldReturnOneWhenFirstLengthIsGreaterThanSecondLength" />
+        <item itemvalue="JUnit.CmTest.getMM" />
+        <item itemvalue="JUnit.InchTest.getMM" />
+        <item itemvalue="JUnit.FeetTest.getMM" />
+        <item itemvalue="JUnit.UnitsTest.shouldReturnZeroWhenBothLengthsAreEqual" />
       </list>
     </recent_temporary>
   </component>
