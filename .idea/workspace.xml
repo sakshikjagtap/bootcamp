@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5707efbb-1c25-47b1-94f0-ae7925b3cc65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment2/Probability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment2/exceptions/OutOfProbability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment2/ChanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/UnitsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +63,12 @@
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tw.step.bootcamp.assignment3" />
       <recent name="com.tw.step.bootcamp.assignment2" />
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UnitsTest.shouldReturnTrue">
     <configuration name="ChanceTest.createChanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
@@ -117,8 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnitsTest.shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.UnitsTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnitsTest.shouldReturnTrue" />
         <item itemvalue="JUnit.ChanceTest.createChanceTest" />
         <item itemvalue="JUnit.ChanceTest.notGettingChance" />
         <item itemvalue="JUnit.ChanceTest.gettingChance" />
