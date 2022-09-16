@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5707efbb-1c25-47b1-94f0-ae7925b3cc65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Cm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Length.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/CmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/FeetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/InchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment4/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment4/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment4/ParkingLotTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Feet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Feet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Inche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Inch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tw/step/bootcamp/assignment3/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/UnitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/tw/step/bootcamp/assignment3/UnitsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/sakshijagtap/workspace/practice/java/bootcamp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -61,11 +56,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tw.step.bootcamp.assignment4" />
       <recent name="com.tw.step.bootcamp.assignment3" />
       <recent name="com.tw.step.bootcamp.assignment2.exceptions" />
       <recent name="com.tw.step.bootcamp.assignment2" />
       <recent name="com.tw.step.bootcamp.assignment1.exceptions" />
-      <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -75,12 +70,13 @@
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tw.step.bootcamp.assignment4" />
       <recent name="com.tw.step.bootcamp.assignment3" />
       <recent name="com.tw.step.bootcamp.assignment2" />
       <recent name="com.tw.step.bootcamp.assignment1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ParkingLotTest">
     <configuration name="CmTest.getMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
@@ -97,33 +93,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeetTest.getMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tw.step.bootcamp.assignment3.*" />
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.FeetTest" />
-      <option name="METHOD_NAME" value="getMM" />
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment4" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment4.ParkingLotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotTest.shouldAddACarToParkedCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment4" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment4.ParkingLotTest" />
+      <option name="METHOD_NAME" value="shouldAddACarToParkedCars" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InchTest.getMM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingLotTest.shouldKnowWhenParkinLotIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tw.step.bootcamp.assignment3.*" />
+          <option name="PATTERN" value="com.tw.step.bootcamp.assignment4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.InchTest" />
-      <option name="METHOD_NAME" value="getMM" />
+      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment4" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment4.ParkingLotTest" />
+      <option name="METHOD_NAME" value="shouldKnowWhenParkinLotIsFull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,29 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitsTest.shouldReturnZeroWhenBothLengthsAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bootcamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tw.step.bootcamp.assignment3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tw.step.bootcamp.assignment3" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.step.bootcamp.assignment3.UnitsTest" />
-      <option name="METHOD_NAME" value="shouldReturnZeroWhenBothLengthsAreEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkingLotTest" />
+        <item itemvalue="JUnit.ParkingLotTest.shouldKnowWhenParkinLotIsFull" />
+        <item itemvalue="JUnit.ParkingLotTest.shouldAddACarToParkedCars" />
         <item itemvalue="JUnit.UnitsTest.shouldReturnOneWhenFirstLengthIsGreaterThanSecondLength" />
         <item itemvalue="JUnit.CmTest.getMM" />
-        <item itemvalue="JUnit.InchTest.getMM" />
-        <item itemvalue="JUnit.FeetTest.getMM" />
-        <item itemvalue="JUnit.UnitsTest.shouldReturnZeroWhenBothLengthsAreEqual" />
       </list>
     </recent_temporary>
   </component>
