@@ -24,7 +24,7 @@ public class ParkingLot {
     return parkedCars.contains(car);
   }
 
-  public void sendNotification() {
+  private void sendNotification() {
     double maxSize = lotSize * 1.0;
     double fillPercent = (parkedCars.size()/maxSize) * 100;
     if (fillPercent <20) {
@@ -35,10 +35,15 @@ public class ParkingLot {
       notifier.notifyToAssign(this.lotNumber);
       return;
     }
-    if (parkedCars.size() == lotSize){
+    if (isFull()){
       notifier.notifyFilled(this.lotNumber);
     }
 
   }
+
+  public boolean isFull() {
+    return parkedCars.size() == lotSize;
+  }
+
 
 }
